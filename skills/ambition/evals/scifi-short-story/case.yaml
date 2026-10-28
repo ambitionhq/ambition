@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: scifi-short-story
+expected_outcome: |
+  Recognizes this is creative work where altitude fits poorly, climbs with depth and
+  range instead (e.g. real astrophysics of tidally locked planets, editor or workshop
+  methods), keeps every rung within 5,000 words and 3 weeks, names an outside judge
+  such as cold readers, and returns an upgraded prompt.

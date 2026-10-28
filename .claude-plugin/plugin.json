@@ -1,0 +1,12 @@
+{
+  "name": "ambition",
+  "version": "1.0.0",
+  "description": "Your prompts are too small. Turns any task into a ladder of bolder, still-doable versions along Altitude, Depth and Range, each with the access it needs and an outside check. Then writes the upgraded prompt or does the work.",
+  "author": {
+    "name": "ambitionhq"
+  },
+  "homepage": "https://github.com/ambitionhq/ambition",
+  "repository": "https://github.com/ambitionhq/ambition",
+  "license": "MIT",
+  "keywords": ["skill", "prompting", "ambition", "agents", "productivity"]
+}

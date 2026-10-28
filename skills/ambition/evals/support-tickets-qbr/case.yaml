@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: support-tickets-qbr
+expected_outcome: |
+  Goes to the raw ticket text with real analysis instruments (SQL/DuckDB, clustering,
+  statistics) rather than summarizing tags, ties tickets to decisions or revenue,
+  names an outside judge, and returns a 3-rung ladder plus an upgraded prompt without
+  building slides.

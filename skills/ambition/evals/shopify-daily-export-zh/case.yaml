@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: shopify-daily-export-zh
+expected_outcome: |
+  Replies in Chinese. Treats the daily Excel email as a means to an end (the boss
+  understanding and acting on how the store is doing) and climbs in altitude, e.g.
+  anomaly alerts or a decision-oriented daily brief, while naming the Shopify API
+  access it needs and an outside check. Ends with a ready-to-paste upgraded prompt.

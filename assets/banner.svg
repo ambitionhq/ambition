@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">ambition: your prompts are too small</title>
+  <desc id="desc">The task you asked for sits at the center. Altitude climbs up to the outcome behind it, depth goes down to how the best would do it, range reaches out to fields nobody invited.</desc>
+  <defs>
+    <radialGradient id="glow" cx="75%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2A2440" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0E0E12" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <marker id="headUp" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#FF8A4C"/>
+    </marker>
+    <marker id="headDown" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#3DD6C6"/>
+    </marker>
+    <marker id="headSide" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#A78BFA"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="640" rx="28" fill="#0E0E12"/>
+  <rect width="1280" height="640" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="640" rx="28" fill="url(#glow)"/>
+
+  <!-- Wordmark -->
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="96" y="214" fill="#8A8A9A" font-size="20" font-weight="600" letter-spacing="4">A SKILL FOR CLAUDE &amp; FRIENDS</text>
+    <text x="90" y="340" fill="#FFFFFF" font-size="132" font-family="ui-serif, Georgia, 'Times New Roman', serif" letter-spacing="-2">ambition</text>
+    <text x="96" y="404" fill="#C9C9D6" font-size="34">Your prompts are too small.</text>
+    <text x="96" y="470" font-size="20" font-weight="600" letter-spacing="3">
+      <tspan fill="#FF8A4C">ALTITUDE</tspan><tspan fill="#55556A"> · </tspan><tspan fill="#3DD6C6">DEPTH</tspan><tspan fill="#55556A"> · </tspan><tspan fill="#A78BFA">RANGE</tspan>
+    </text>
+  </g>
+
+  <!-- Axes -->
+  <g stroke-width="5" stroke-linecap="round" fill="none">
+    <line x1="960" y1="282" x2="960" y2="110" stroke="#FF8A4C" marker-end="url(#headUp)"/>
+    <line x1="960" y1="358" x2="960" y2="530" stroke="#3DD6C6" marker-end="url(#headDown)"/>
+    <line x1="922" y1="320" x2="770" y2="320" stroke="#A78BFA" marker-end="url(#headSide)"/>
+    <line x1="998" y1="320" x2="1150" y2="320" stroke="#A78BFA" marker-end="url(#headSide)"/>
+  </g>
+
+  <!-- Speed: same spot, just faster -->
+  <circle cx="960" cy="320" r="26" fill="none" stroke="#6B6B80" stroke-width="2" stroke-dasharray="4 6"/>
+  <circle cx="960" cy="320" r="9" fill="#FFFFFF"/>
+
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="984" y="112" fill="#FF8A4C" font-size="20" font-weight="700" letter-spacing="3">ALTITUDE</text>
+    <text x="984" y="140" fill="#A9A9B8" font-size="18">the outcome behind the task</text>
+
+    <text x="984" y="512" fill="#3DD6C6" font-size="20" font-weight="700" letter-spacing="3">DEPTH</text>
+    <text x="984" y="540" fill="#A9A9B8" font-size="18">how the best would do it</text>
+
+    <text x="1012" y="300" fill="#A78BFA" font-size="20" font-weight="700" letter-spacing="3">RANGE</text>
+    <text x="1012" y="354" fill="#A9A9B8" font-size="18">fields nobody invited</text>
+
+    <text x="926" y="356" fill="#6B6B80" font-size="16" text-anchor="end">speed: same spot, faster</text>
+    <text x="926" y="298" fill="#FFFFFF" font-size="16" text-anchor="end" font-weight="600">your task</text>
+  </g>
+</svg>

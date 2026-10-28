@@ -1,0 +1,14 @@
+{
+  "name": "ambition",
+  "owner": {
+    "name": "ambitionhq"
+  },
+  "plugins": [
+    {
+      "name": "ambition",
+      "source": "./",
+      "description": "Your prompts are too small. Turns any task into a ladder of bolder, still-doable versions along Altitude, Depth and Range.",
+      "version": "1.0.0"
+    }
+  ]
+}
