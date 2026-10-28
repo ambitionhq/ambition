@@ -17,10 +17,10 @@ What gets merged:
 
 - Keep [`SKILL.md`](skills/ambition/SKILL.md) under ~300 lines. Detail belongs in `references/`.
 - Explain *why* a rule exists instead of adding MUSTs. The model follows reasons better than orders.
-- If you change behavior, add or update an eval case in `skills/ambition/evals/` and run:
+- If you change behavior, add or update an eval case in `evals/` and run, from the repo root:
 
 ```bash
-cd skills/ambition && claude plugin eval .
+claude plugin eval .
 ```
 
 ## Translations

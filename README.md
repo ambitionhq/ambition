@@ -156,10 +156,10 @@ We ran three test tasks (a Chinese-language data pipeline, a support-ticket revi
 
 The checks partly measure structure (is there a ladder, a judge, a paste-ready prompt?), so the pass rates flatter the skill. The last column is the honest one. There was one run per configuration, so treat these as a sanity check, not a benchmark. We kept iterating where the skill lost. Round 1's story ladder was all process, and that led to the rule that every rung must be a bigger *result*. All outputs are in [`showcase/`](showcase/).
 
-Plain frontier models are already good at brainstorming. What `ambition` adds is consistent structure: measurable targets, outside judges, a concrete sketch, honest unlocks and a prompt you can run. The test cases are in [`skills/ambition/evals/`](skills/ambition/evals/). Run them yourself:
+Plain frontier models are already good at brainstorming. What `ambition` adds is consistent structure: measurable targets, outside judges, a concrete sketch, honest unlocks and a prompt you can run. The test cases are in [`evals/`](evals/). Run them yourself:
 
 ```bash
-cd skills/ambition && claude plugin eval .
+claude plugin eval .
 ```
 
 ## FAQ

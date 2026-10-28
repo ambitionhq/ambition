@@ -155,10 +155,10 @@ npx skills add ambitionhq/ambition
 
 检查项有一部分在看结构（有没有阶梯、裁判、可粘贴的提示词），所以通过率对 skill 有利。最后一列才是更诚实的结论。每种配置只跑了一次，请把它当作基本验证，而不是严格的基准测试。在 skill 输掉的地方，我们一直在改：第一轮的小说阶梯全是流程，所以才有了"每一级都必须是更大的*结果*"这条规则。全部输出见 [`showcase/`](showcase/)。
 
-前沿模型本身就很会头脑风暴。`ambition` 带来的是稳定的结构：可量化的目标、外部裁判、具体的成品示意、诚实的解锁清单，以及一段能直接执行的提示词。测试用例在 [`skills/ambition/evals/`](skills/ambition/evals/)，你可以自己跑：
+前沿模型本身就很会头脑风暴。`ambition` 带来的是稳定的结构：可量化的目标、外部裁判、具体的成品示意、诚实的解锁清单，以及一段能直接执行的提示词。测试用例在 [`evals/`](evals/)，你可以自己跑：
 
 ```bash
-cd skills/ambition && claude plugin eval .
+claude plugin eval .
 ```
 
 ## 常见问题
